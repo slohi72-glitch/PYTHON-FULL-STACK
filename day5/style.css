@@ -1,0 +1,14 @@
+*{
+    color: red;
+}
+h1,p{
+    color:gray;
+    text-decoration: underline;
+    -moz-text-blink: blink;
+}
+h1#e{
+    color: aqua;
+}
+h1#q{
+    color: brown;
+}

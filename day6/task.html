@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+    <style>
+        .p{
+            width: 400px;
+            height: 400px;
+            border: 5px solid black;
+            background-color: 20px;
+            position: relative;
+        }
+        .child1{
+            border: 3px solid black;
+            background-color: rgb(17, 207, 112);
+            position: absolute;
+            left: 10px;
+            top: 0px;
+            margin: 30px;
+        }
+        .child2{
+            border: 3px solid rgb(156, 30, 30);
+            background-color: aqua;
+            position: absolute;
+            right: 10px;
+            top: 0px;
+            margin: 30px;
+        }
+        .child3{
+            border: 3px solid rgb(156, 30, 30);
+            background-color: aqua;
+            position: absolute;
+            left: 10px;
+            bottom: 0px;
+            margin: 30px;
+        }
+        .child4{
+            border: 3px solid rgb(223, 209, 15);
+            background-color: rgb(11, 62, 156);
+            position: absolute;
+            right: 10px;
+            bottom: 0px;
+            margin: 30px;
+        }
+        .child5{
+            border: 3px solid rgb(223, 209, 15);
+            background-color: rgb(11, 62, 156);
+            position: absolute;
+            margin: 30px;
+            left: 50%;
+            bottom: 50%;
+            transform: translate(-50%,-50%);
+        }
+    </style>
+</head>
+<body>
+    <div class="parent">
+      <img src="day2/asserts/pexel.jpg" width="900" height=""/>
+      <div class="child1">top left</div>
+      <div class="child2">top right</div>
+      <div class="child3">bottom left</div>
+      <div class="child4">bottom right</div>
+      <div class="child5">center</div>
+</body>
+</html>

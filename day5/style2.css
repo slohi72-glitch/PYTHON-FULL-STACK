@@ -1,0 +1,19 @@
+body {
+    background-color:skyblue;
+}
+div.section1 {
+    background-color:grey;
+    color:green;
+}
+div.section2 {
+    background-color: pink;
+     color:blue;
+}
+h1#r{
+    color: orange;
+    background-color:rgb(13, 214, 73);
+}
+h1#p{
+    color: blueviolet;
+    background-color: brown;
+}
