@@ -1,0 +1,27 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+header {
+  height: 100px;
+  background-color: #112e81;
+}
+nav {
+  height: 150px;
+  background-color: #4647ae;
+}
+main {
+  height: 100%;  
+  display: flex;
+}
+main > .child1 > section{
+    height: 70%;
+    background-color: #112e81;
+}
+main > .child2 > aside{
+    height: 30%;
+    background-color: #AACCD6;
+}
+footer{
+    
+}
